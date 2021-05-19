@@ -473,19 +473,19 @@
 					'uri': 'sugarchain:',
 					'title': 'Sugar Wallet',
 					'name': 'Main Network (SUGAR)',
-					'api': 'https://api.sugarchain.org',
+					'api': 'http://91.123.151.192:1234',
 					'ticker': 'SUGAR',
 					'decimals': 8,
 					'fee': 0.00001,
 					'network': {
-						'messagePrefix': '\x19Sugarchain Signed Message:\n',
+						'messagePrefix': '\x19Biweb Signed Message:\n',
 						'bip32': {
 							'public': 0x0488b21e,
 							'private': 0x0488ade4
 						},
 						'bech32': 'sugar',
-						'pubKeyHash': 0x3F,
-						'scriptHash': 0x7D,
+						'pubKeyHash': 0x21,
+						'scriptHash': 0x1E,
 						'wif': 0x80
 					}
 				},
@@ -514,10 +514,10 @@
 			// Explorer links
 			var blockExplorer = {
 				'address': function(address) {
-					return 'https://sugar.wtf/#/address/' + address + '/' + getConfig()['ticker']
+					return 'https://explorer.bitwebcore.org/address/' + address + '/' + getConfig()['ticker']
 				},
 				'tx': function(tx) {
-					return 'https://sugar.wtf/#/transaction/' + tx + '/' + getConfig()['ticker']
+					return 'https://explorer.bitwebcore.org/tx/' + tx + '/' + getConfig()['ticker']
 				}
 			}
 
