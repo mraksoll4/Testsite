@@ -847,7 +847,7 @@
 			// Get address balance
 			function addressBalance(address) {
 				return Promise.resolve($.ajax({
-					'url': getBackend() + '/balance/' + address,
+					'url': 'https://explorer.bitwebcore.org/ext/getbalance/' + address,
 				})).then(function(data) {
 					return data
 				})
