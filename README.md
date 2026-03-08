@@ -5,3 +5,4 @@ Feel free to modify/use it in your projects :D
 
 P.s. Working example [https://webwallet.bitwebcore.org/](https://github.com/bitweb-project/api-server)  
 P.s.s This wallet heavily based on OutCast3k [coinbin](http://github.com/OutCast3k/coinbin), check out his awesome github!
+test test test
